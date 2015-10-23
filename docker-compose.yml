@@ -1,0 +1,14 @@
+blog:
+  build: ghost/
+  environment:
+    VIRTUAL_HOST: "brianchristner.io"
+    NODE_ENV: "production"
+    PUBLIC_URL: "https://www.brianchristner.io"
+  volumes:
+    - /root/flynn/data:/app/content/data
+    - /root/flynn/images:/app/content/images
+    - /root/flynn/themes:/app/content/themes
+  ports:
+    - "80:2368"
+  restart: always
+   
