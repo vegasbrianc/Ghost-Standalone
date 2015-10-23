@@ -10,12 +10,12 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'https://www.brianchristner.io',
+        url: 'https://www.yourdomain.com',
         mail: {},
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/b2.db')
+                filename: path.join(__dirname, '/path_to_your_DB.db')
             },
             debug: false
         },
