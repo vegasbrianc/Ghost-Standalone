@@ -17,6 +17,6 @@ ADD config.js /app/
 WORKDIR /app
 EXPOSE 2368
 
-ENV GHOST_URL https://www.brianchristner.io
+ENV GHOST_URL https://www.yourdomain.com
 VOLUME ["/app/content/data"]
 CMD ["node", "index.js"]
