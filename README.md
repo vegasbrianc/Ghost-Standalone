@@ -1,7 +1,7 @@
 # Ghost Standalone Docker-Compose Installation
 This is a simple docker-compose ghost project that allows you to quickly get up and running with Ghost and volumes mounted to the host so you can store your theme, images, and databases locally.
 
-# Why is this different than the standard Ghost image on the Docker hub? By wrapping Ghost into a Docker compose 
+### Why is this different than the standard Ghost image on the Docker hub? By wrapping Ghost into a Docker compose 
 
 # What you need to do
 * Edit the docker-compose.yml with your project information (URL, Host Directory Paths, etc)
