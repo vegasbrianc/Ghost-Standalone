@@ -24,7 +24,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/b2.db')
+                filename: path.join(__dirname, '/path_to_your_DB.db')
             },
             debug: false
         },
@@ -57,7 +57,7 @@ config = {
         database: {
             client: 'sqlite3',
             connection: {
-                filename: path.join(__dirname, '/content/data/b2.db')
+                filename: path.join(__dirname, '/path_to_your_DB.db')
             },
             debug: false
         },
